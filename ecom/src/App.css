@@ -704,6 +704,7 @@
   margin: 2rem 0 1rem 0;
   background-color: black;
   width: 100%;
+  background-image: radial-gradient(grey, black);
 }
 
 .banner-content-left {
@@ -757,6 +758,7 @@
 }
 
 .banner-image-container {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -764,7 +766,6 @@
 .banner-image-container img {
   width: 95%;
   height: auto;
-  background-image: radial-gradient(grey, black);
 }
 
 .product-details-header h1 {
